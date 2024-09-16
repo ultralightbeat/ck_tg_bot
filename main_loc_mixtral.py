@@ -9,7 +9,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
 
-TOKEN = "YO"
+TOKEN = "YOUR_TOKEN"
 bot = telebot.TeleBot(TOKEN)
 
 # Определение клавиатуры с кнопкой "Начать"
